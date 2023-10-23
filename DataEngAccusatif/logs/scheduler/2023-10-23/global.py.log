@@ -1,0 +1,69 @@
+[2023-10-23T10:20:42.477+0000] {processor.py:157} INFO - Started process (PID=311) to work on /opt/airflow/dags/global.py
+[2023-10-23T10:20:42.484+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/global.py for tasks to queue
+[2023-10-23T10:20:42.499+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:20:42.498+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/global.py
+[2023-10-23T10:20:43.175+0000] {processor.py:839} INFO - DAG(s) dict_keys(['global_dag']) retrieved from /opt/airflow/dags/global.py
+[2023-10-23T10:20:43.672+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:20:43.672+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-23T10:20:43.685+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:20:43.685+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-23T10:20:43.694+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:20:43.693+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-23T10:20:43.695+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:20:43.695+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:global_dag' as access control is unset.
+[2023-10-23T10:20:43.696+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:20:43.696+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-23T10:20:43.739+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py:3452 DeprecationWarning: The dag_concurrency option in [core] has been renamed to max_active_tasks_per_dag - the old setting has been used, but please update your config.
+[2023-10-23T10:20:43.741+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:20:43.741+0000] {dag.py:2937} INFO - Creating ORM DAG for global_dag
+[2023-10-23T10:20:43.752+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:20:43.752+0000] {dag.py:3696} INFO - Setting next_dagrun for global_dag to 2023-10-23T00:00:00+00:00, run_after=2023-10-24T00:00:00+00:00
+[2023-10-23T10:20:43.774+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/global.py took 1.308 seconds
+[2023-10-23T10:21:13.834+0000] {processor.py:157} INFO - Started process (PID=336) to work on /opt/airflow/dags/global.py
+[2023-10-23T10:21:13.835+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/global.py for tasks to queue
+[2023-10-23T10:21:13.837+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:13.837+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/global.py
+[2023-10-23T10:21:14.280+0000] {processor.py:839} INFO - DAG(s) dict_keys(['global_dag']) retrieved from /opt/airflow/dags/global.py
+[2023-10-23T10:21:14.309+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:14.308+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-23T10:21:14.332+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:14.332+0000] {dag.py:3696} INFO - Setting next_dagrun for global_dag to 2023-10-23T00:00:00+00:00, run_after=2023-10-24T00:00:00+00:00
+[2023-10-23T10:21:14.355+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/global.py took 0.525 seconds
+[2023-10-23T10:21:15.409+0000] {processor.py:157} INFO - Started process (PID=338) to work on /opt/airflow/dags/global.py
+[2023-10-23T10:21:15.410+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/global.py for tasks to queue
+[2023-10-23T10:21:15.413+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:15.413+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/global.py
+[2023-10-23T10:21:15.748+0000] {processor.py:839} INFO - DAG(s) dict_keys(['global_dag']) retrieved from /opt/airflow/dags/global.py
+[2023-10-23T10:21:15.776+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:15.775+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-23T10:21:15.799+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:15.799+0000] {dag.py:3696} INFO - Setting next_dagrun for global_dag to 2023-10-23T00:00:00+00:00, run_after=2023-10-24T00:00:00+00:00
+[2023-10-23T10:21:15.822+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/global.py took 0.419 seconds
+[2023-10-23T10:21:16.417+0000] {processor.py:157} INFO - Started process (PID=340) to work on /opt/airflow/dags/global.py
+[2023-10-23T10:21:16.417+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/global.py for tasks to queue
+[2023-10-23T10:21:16.419+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:16.419+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/global.py
+[2023-10-23T10:21:16.895+0000] {processor.py:839} INFO - DAG(s) dict_keys(['global_dag']) retrieved from /opt/airflow/dags/global.py
+[2023-10-23T10:21:16.923+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:16.922+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-23T10:21:16.950+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:16.949+0000] {dag.py:3696} INFO - Setting next_dagrun for global_dag to 2023-10-23T00:00:00+00:00, run_after=2023-10-24T00:00:00+00:00
+[2023-10-23T10:21:16.978+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/global.py took 0.564 seconds
+[2023-10-23T10:21:47.592+0000] {processor.py:157} INFO - Started process (PID=373) to work on /opt/airflow/dags/global.py
+[2023-10-23T10:21:47.594+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/global.py for tasks to queue
+[2023-10-23T10:21:47.596+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:47.596+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/global.py
+[2023-10-23T10:21:48.017+0000] {processor.py:839} INFO - DAG(s) dict_keys(['global_dag']) retrieved from /opt/airflow/dags/global.py
+[2023-10-23T10:21:48.061+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:48.060+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-23T10:21:48.092+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:21:48.092+0000] {dag.py:3696} INFO - Setting next_dagrun for global_dag to 2023-10-23T00:00:00+00:00, run_after=2023-10-24T00:00:00+00:00
+[2023-10-23T10:21:48.117+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/global.py took 0.529 seconds
+[2023-10-23T10:22:18.390+0000] {processor.py:157} INFO - Started process (PID=398) to work on /opt/airflow/dags/global.py
+[2023-10-23T10:22:18.395+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/global.py for tasks to queue
+[2023-10-23T10:22:18.398+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:22:18.397+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/global.py
+[2023-10-23T10:22:18.725+0000] {processor.py:839} INFO - DAG(s) dict_keys(['global_dag']) retrieved from /opt/airflow/dags/global.py
+[2023-10-23T10:22:18.753+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:22:18.752+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-23T10:22:18.772+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:22:18.772+0000] {dag.py:3696} INFO - Setting next_dagrun for global_dag to 2023-10-23T00:00:00+00:00, run_after=2023-10-24T00:00:00+00:00
+[2023-10-23T10:22:18.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/global.py took 0.408 seconds
+[2023-10-23T10:22:49.092+0000] {processor.py:157} INFO - Started process (PID=430) to work on /opt/airflow/dags/global.py
+[2023-10-23T10:22:49.093+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/global.py for tasks to queue
+[2023-10-23T10:22:49.097+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:22:49.096+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/global.py
+[2023-10-23T10:22:49.773+0000] {processor.py:839} INFO - DAG(s) dict_keys(['global_dag']) retrieved from /opt/airflow/dags/global.py
+[2023-10-23T10:22:49.846+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:22:49.845+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-23T10:22:50.001+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:22:50.000+0000] {dag.py:3696} INFO - Setting next_dagrun for global_dag to 2023-10-23T00:00:00+00:00, run_after=2023-10-24T00:00:00+00:00
+[2023-10-23T10:22:50.053+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/global.py took 0.965 seconds
+[2023-10-23T10:23:20.532+0000] {processor.py:157} INFO - Started process (PID=455) to work on /opt/airflow/dags/global.py
+[2023-10-23T10:23:20.533+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/global.py for tasks to queue
+[2023-10-23T10:23:20.537+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:23:20.536+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/global.py
+[2023-10-23T10:23:20.878+0000] {processor.py:839} INFO - DAG(s) dict_keys(['global_dag']) retrieved from /opt/airflow/dags/global.py
+[2023-10-23T10:23:20.908+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:23:20.908+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-23T10:23:20.930+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:23:20.930+0000] {dag.py:3696} INFO - Setting next_dagrun for global_dag to 2023-10-23T00:00:00+00:00, run_after=2023-10-24T00:00:00+00:00
+[2023-10-23T10:23:20.952+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/global.py took 0.426 seconds
+[2023-10-23T10:23:51.240+0000] {processor.py:157} INFO - Started process (PID=487) to work on /opt/airflow/dags/global.py
+[2023-10-23T10:23:51.241+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/global.py for tasks to queue
+[2023-10-23T10:23:51.244+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:23:51.244+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/global.py
+[2023-10-23T10:23:51.681+0000] {processor.py:839} INFO - DAG(s) dict_keys(['global_dag']) retrieved from /opt/airflow/dags/global.py
+[2023-10-23T10:23:51.711+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:23:51.710+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-23T10:23:51.735+0000] {logging_mixin.py:151} INFO - [2023-10-23T10:23:51.735+0000] {dag.py:3696} INFO - Setting next_dagrun for global_dag to 2023-10-23T00:00:00+00:00, run_after=2023-10-24T00:00:00+00:00
+[2023-10-23T10:23:51.760+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/global.py took 0.525 seconds
